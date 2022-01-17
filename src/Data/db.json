@@ -1,0 +1,155 @@
+{
+    "quality": [
+        {
+            "logo": "fas fa-user-md",
+            "number": "122",
+            "text": "Doctor At work"
+        },
+        {
+            "logo": "fas fa-hospital-user",
+            "number": "940",
+            "text": "Happy Patients"
+        },
+        {
+            "logo": "fas fa-procedures",
+            "number": "145",
+            "text": "Bed Facility"
+        },
+        {
+            "logo": "fas fa-hospital",
+            "number": "50",
+            "text": "Available"
+        }
+    ],
+    "services": [
+        {
+            "logo": "fas fa-hospital-user",
+            "heading": "Free CheckUp",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget lorem vel lacus scelerisque laoreet. Sed non venenatis ligula. Morbi eget magna ut erat commodo. "
+        },
+        {
+            "logo": "fas fa-ambulance",
+            "heading": "24/7 Ambulance",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget lorem vel lacus scelerisque laoreet. Sed non venenatis ligula. Morbi eget magna ut erat commodo. "
+        },
+        {
+            "logo": "fas fa-user-md",
+            "heading": "Experts Consultancy",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget lorem vel lacus scelerisque laoreet. Sed non venenatis ligula. Morbi eget magna ut erat commodo. "
+        },
+        {
+            "logo": "fas fa-pills",
+            "heading": "Medicines",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget lorem vel lacus scelerisque laoreet. Sed non venenatis ligula. Morbi eget magna ut erat commodo. "
+        },
+        {
+            "logo": "fas fa-procedures",
+            "heading": "Bed Facility",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget lorem vel lacus scelerisque laoreet. Sed non venenatis ligula. Morbi eget magna ut erat commodo. "
+        },
+        {
+            "logo": "fas fa-heartbeat",
+            "heading": "Total Care",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget lorem vel lacus scelerisque laoreet. Sed non venenatis ligula. Morbi eget magna ut erat commodo. "
+        }
+    ],
+    "ourDoctors": [
+        {
+            "img": "https://blogger.googleusercontent.com/img/a/AVvXsEgP8UIBPxlW3EYqm7_nnEXhbm8gjwtCY-mEyE9lJuPMoE_8MdBAHar0HLcBJEbkayQyDAdfl5kh0dBdBH008rn0v778Ydsqp_jqHgmRRgWup8PHKIpzpE2wqJOj0ajlopeN-40cxRqeKiY70Wv2vAdEowIji0f311ebjQxQ3BMaIXEeyVZzj2qzPYU6=s320",
+            "name": "John Doe",
+            "email": "doe@gmail.com",
+            "facebook": "www.facebook.com",
+            "linkdin": "www.linkedin.com",
+            "insta": "www.instagram.com",
+            "twitter": "www.twitter.com"
+        },
+        {
+            "img": "https://blogger.googleusercontent.com/img/a/AVvXsEiylYzyS7B_qfFzzDbaVhjK4_8_6Y8tEDC_Seb_hQ2CNpNCYFqaQ6-ag_piULOc5XYa2eFGRE2XpHq7mFfEwm1o6dSt46_K_jXsC7Dy0Txiym5MFBlb8WpvvjaBVr2ZRqD-POYenIFyXq5LdDrBgbZRTIPgTGPEEnaIOqNJy_tSYz4x3Ic-P4o-61Eo=s320",
+            "name": "John Doe",
+            "email": "doe@gmail.com",
+            "facebook": "www.facebook.com",
+            "linkdin": "www.linkedin.com",
+            "insta": "www.instagram.com",
+            "twitter": "www.twitter.com"
+        },
+        {
+            "img": "https://blogger.googleusercontent.com/img/a/AVvXsEhp_jaLKNoN2TB57fBRWMkoPOfTpX6NAE-u7BMgjY_0Imk1sSCiIVKHZzqr9x851k0QVec0uynXejo8zh95Fp4rEtgMD4tPi9oHURwtYvSwaoF7eMJGNXNQWL1fePW0rbXUjdUQoPaPFZHi05uzAH7Pu2pwXJ5cCFGJqROv7lGmP_j6QCodDuolADkG=s320",
+            "name": "John Doe",
+            "email": "doe@gmail.com",
+            "facebook": "www.facebook.com",
+            "linkdin": "www.linkedin.com",
+            "insta": "www.instagram.com",
+            "twitter": "www.twitter.com"
+        },
+        {
+            "img": "https://blogger.googleusercontent.com/img/a/AVvXsEgesfWdCrJKfD6OFBBnEMkDbUuhMPo0ce-8H_Ya68VUblow-H4jwnQwCQAWWOdaKeeJVHV0RcN9n0mbqLjqQGRml8w7C2trqxOR5Pigss_7nhK9_5T_34M0BBeXjtAmHIDrOK5BMuvBvqopy0F7TOOD5TCSmonaJjfj-zHgIjASJJvD88bk8TIS6df5=s320",
+            "name": "John Doe",
+            "email": "doe@gmail.com",
+            "facebook": "www.facebook.com",
+            "linkdin": "www.linkedin.com",
+            "insta": "www.instagram.com",
+            "twitter": "www.twitter.com"
+        },
+        {
+            "img": "https://blogger.googleusercontent.com/img/a/AVvXsEjkiJTJkp09BGh-XGM13cLB4EqZOyR22HyDdbu2u81QUeULvaWpuhfgpMJtqiplMOQG_-AhUoWtEI5WB79l6ofLGE9fdshVYTfo77wpND9m7TV1IvjMGYF57hXiwH3JZyqothWphzVxZ1Pul-szZ5Lot8I117Ha5CHLqboWMBWgA8i4IMvFe6e9toU4=s320",
+            "name": "John Doe",
+            "email": "doe@gmail.com",
+            "facebook": "www.facebook.com",
+            "linkdin": "www.linkedin.com",
+            "insta": "www.instagram.com",
+            "twitter": "www.twitter.com"
+        },
+        {
+            "img": "https://blogger.googleusercontent.com/img/a/AVvXsEjkiJTJkp09BGh-XGM13cLB4EqZOyR22HyDdbu2u81QUeULvaWpuhfgpMJtqiplMOQG_-AhUoWtEI5WB79l6ofLGE9fdshVYTfo77wpND9m7TV1IvjMGYF57hXiwH3JZyqothWphzVxZ1Pul-szZ5Lot8I117Ha5CHLqboWMBWgA8i4IMvFe6e9toU4=s320",
+            "name": "John Doe",
+            "email": "doe@gmail.com",
+            "facebook": "www.facebook.com",
+            "linkdin": "www.linkedin.com",
+            "insta": "www.instagram.com",
+            "twitter": "www.twitter.com"
+        }
+    ],
+    "blog": [
+        {
+            "img": "https://blogger.googleusercontent.com/img/a/AVvXsEjiMCxa5-9m4nYnbkbHey_I2Azhz6sSQG-O8RjpycqvnrE3JMHCkQWn1QP7la0a_33xpcCrL12g4J7ZU_r5LGWp5VoPTeX9zXdA5b447FFC2uTWCJ8jtnKSLI0mXTuajKvReOvgtKI2ArYtJnxlSBUO-hSAef0eWcGchcXgE2UbZhqfs-6n4-2qnYlS=w320-h180",
+            "blogTitle": "Blog Title goes here",
+            "text": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget lorem vel lacus scelerisque laoreet. Sed non venenatis ligula. Morbi eget magna ut erat commodo."
+        },
+        {
+            "img": "https://blogger.googleusercontent.com/img/a/AVvXsEjNggAVYUEgb4UZ0regmwZS29fCP6XUtvxh2gMKFP0lL80HpqUgnEj7AJNILOGwTImAcsDHDmIPgPz-W3OlGcGFA7W-Xrcn7CaEko40DBqJYFi7blDKvxT5Ruugct1W8B5W7UmYA-5QBcm79EusGQI1FYbdyeqyOpnC5U1E8n5PdgO1ot2tzdLdJk5Q=s320",
+            "blogTitle": "Blog Title goes here",
+            "text": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget lorem vel lacus scelerisque laoreet. Sed non venenatis ligula. Morbi eget magna ut erat commodo."
+        },
+        {
+            "img": "https://blogger.googleusercontent.com/img/a/AVvXsEjOHRjFwvXnUaTZHeWKM2u8hIiwZMUyxy8bk-AYrFVAJd1-3vjLQMES9zc2PlQQr6ALapMB0VIyqC2yCkABdo2uPB5eUVqrrP_hfAch_qahp0CiSfY0rABL4d50IUgls99WkbC-CbzjH098YrQDHGWNFS2yc7GSvfpojjtoEBNPYdaLz5hP3hK4K6Mc=s320",
+            "blogTitle": "Blog Title goes here",
+            "text": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget lorem vel lacus scelerisque laoreet. Sed non venenatis ligula. Morbi eget magna ut erat commodo."
+        }
+    ],
+    "reviews": [
+        {
+            "img": "https://blogger.googleusercontent.com/img/a/AVvXsEipdUxob7Noyts0IgUC9ZvbN8eNVe57P1wCYeecneTdKvvu_aZH6TqjL-oz2VyIc9ijSoOw8CNnQfYQEeaiGA01oo2x4baqpo89YwR8AJ-hxOCqLuusMcE2BjY99EhmRmOcbsWRE2ZMY7Z1_lou2tSQ-JPl8TAT2uc_3JNQhS7hY7LD15lgHLcKHqbY",
+            "name": "John Doe",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget lorem vel lacus scelerisque laoreet. Sed non venenatis ligula. Morbi eget magna ut erat commodo. ",
+            "star": "4"
+        },
+        {
+            "img": "https://blogger.googleusercontent.com/img/a/AVvXsEjaN9GnyJLXRkhxYlHO8Z0a2884mrO5x8GB8pS8lHOz02AgP_f4uCZ8DZbm4nBijwh7s78653GBrv0ClfVhYNpI_-Nht3874mPXNKaASD_VFp_2IxWQr9EtXN_uM1hHQHWyO3xT-4Ogw6xFRZrnMPoDQBk0sibKhO6qktYr8nIQ6uvF8R5-DS6qmRPb",
+            "name": "John Doe",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget lorem vel lacus scelerisque laoreet. Sed non venenatis ligula. Morbi eget magna ut erat commodo. ",
+            "star": "5"
+        },
+        {
+            "img": "https://blogger.googleusercontent.com/img/a/AVvXsEjKpNlJ6m6Eau9JfXuzQYF-PhzAEtWWJGkR7WsIuutk0ueGKIz84kvOzJ76vhQ2uVW74YPbCun5_D6IDP3dwCZA7PlmgoSN6B8lwjCk18DBP4oOIQrnYRJHEGgTCQ_IgK5PKSSVqfLxrI-q1x8xvvdlUby0KXv2incJ900UaXx-HR-nU0vEyeaFXoFQ",
+            "name": "John Doe",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget lorem vel lacus scelerisque laoreet. Sed non venenatis ligula. Morbi eget magna ut erat commodo. ",
+            "star": "4"
+        },
+        {
+            "img": "https://blogger.googleusercontent.com/img/a/AVvXsEjKpNlJ6m6Eau9JfXuzQYF-PhzAEtWWJGkR7WsIuutk0ueGKIz84kvOzJ76vhQ2uVW74YPbCun5_D6IDP3dwCZA7PlmgoSN6B8lwjCk18DBP4oOIQrnYRJHEGgTCQ_IgK5PKSSVqfLxrI-q1x8xvvdlUby0KXv2incJ900UaXx-HR-nU0vEyeaFXoFQ",
+            "name": "John Doe",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget lorem vel lacus scelerisque laoreet. Sed non venenatis ligula. Morbi eget magna ut erat commodo. ",
+            "star": "4"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+header#header {
+  background-color: var(--pure);
+  padding: 2rem 0;
+  -moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+  z-index: 999999;
+}
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+header#header .container .brand i {
+  color: var(--green);
+}
+header#header .container .brand span {
+  color: var(--black);
+}
+header#header .container .brand span,
+header#header .container .brand i {
+  font-size: 3rem;
+  margin-right: 0.2rem;
+}
+header#header .container .menu ul li a {
+  font-size: 2rem;
+  color: var(--light-color);
+  padding: 0 1rem;
+  transition: all 0.4s ease;
+}
+header#header .container .menu ul li a:hover {
+  color: var(--green);
+}
+#menu-bar {
+  background-color: #eee;
+  color: var(--green);
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+header#hero {
+  background-color: var(--pure);
+  opacity: 1;
+}
+section#hero .container .hero-img img {
+  width: 100%;
+}
+section#hero .hero-text .heading {
+  text-align: start;
+}

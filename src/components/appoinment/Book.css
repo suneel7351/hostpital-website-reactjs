@@ -1,0 +1,37 @@
+section#book .container .book-img {
+  width: 100%;
+}
+section#book .container .book-form .inputField {
+  border: 2px solid var(--green);
+  padding: 0.6rem 0 0.6rem 1rem;
+  font-size: 1.7rem;
+  color: var(--light-color);
+  margin: 1rem 0;
+  border-radius: 0.6rem;
+  width: 100%;
+}
+section#book .container .book-form {
+  padding: 1.5rem;
+  border-radius: 0.7rem;
+  border: 2px solid var(--green);
+}
+section#book .container .book-form .heading {
+  margin-bottom: 2rem;
+}
+section#book {
+  padding: 4rem 0;
+}
+section#book .heading {
+  margin-bottom: 2rem;
+}
+input[type="date"] {
+  background-color: var(--pure);
+}
+
+input[type="date"]:before {
+  color: var(--light-color);
+  content: attr(placeholder) !important;
+}
+input[type="date"]:focus:before {
+  content: "" !important;
+}

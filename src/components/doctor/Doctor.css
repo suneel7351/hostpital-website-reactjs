@@ -1,0 +1,42 @@
+section#doctor .container .doctor-card .social-media a {
+  color: var(--green);
+  border: 2px solid var(--green);
+  padding: 1rem;
+  background-color: var(--pure);
+  border-radius: 0.4rem;
+  font-size: 1.8rem;
+  transition: all 0.3s ease;
+}
+section#doctor .container .doctor-card .social-media a:hover {
+  color: var(--pure);
+  background-color: var(--green);
+}
+section#doctor .container .doctor-card {
+  border: 2px solid var(--green);
+  border-radius: 0.7rem;
+  box-shadow: var(--box-shadow);
+  background-color: var(--pure);
+  width: 25rem;
+  height: 30rem;
+  margin-bottom: 3rem;
+}
+section#doctor .container .doctor-card img {
+  width: 50%;
+  border: 2px solid var(--green);
+  border-radius: 0.6rem;
+}
+section#doctor .container .doctor-card .social-media {
+  margin-top: 1rem;
+  width: 100%;
+  gap: 1rem;
+}
+section#doctor .container .doctor-card .expert {
+  color: var(--green);
+}
+section#doctor {
+  padding: 3rem;
+}
+section#doctor .heading {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}

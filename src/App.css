@@ -1,38 +1,256 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700&family=Baloo+Bhaijaan+2&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none !important;
+  text-transform: capitalize;
+  list-style: none;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: vvar(--pure);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--green);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--light-color);
+}
+:root {
+  --pure: #fff;
+  --green: #16a085;
+  --black: #444;
+  --light-color: #777;
+  --light: #f0f0f0;
+  --alt-bg: #f5f5f5;
+  --box-shadow: 0.5rem 0.5rem 0 rgba(22, 160, 133, 0.2);
+  --text-shadow: 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
+  --border: 0.2rem solid var(--green);
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1152px;
+  }
+}
+section:nth-child(even) {
+  background-color: var(--alt-bg);
+}
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.flex-column {
+  flex-direction: column;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.flex-1 {
+  flex: 1;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.para {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: var(--light-color);
+}
+.btn {
+  cursor: pointer;
+  font-size: 1.7rem;
+  color: var(--green);
+  border: var(--border);
+  background-color: var(--pure);
+  box-shadow: var(--box-shadow);
+  transition: all 0.4s ease;
+  border-radius: 0.6rem;
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem;
+  padding-left: 1rem;
+}
+.btn i {
+  background-color: var(--green);
+  color: var(--pure);
+  padding: 0.4rem 1rem;
+  border-radius: 0.6rem;
+  transition: all 0.4s ease;
+  margin-left: 0.4rem;
+}
+.btn:hover {
+  background-color: var(--green);
+  color: var(--pure);
+}
+.btn:hover i {
+  background-color: var(--pure);
+  color: var(--green);
+  margin-left: 1rem;
+}
+
+.pb {
+  padding-bottom: 2rem;
+}
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--black);
+  font-size: 4rem;
+  letter-spacing: 0.4rem;
+}
+
+.heading span {
+  text-transform: uppercase;
+  color: var(--green);
+}
+.text-center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* media query */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 767px) {
+  #hero .container {
+    flex-direction: column;
+  }
+  #about .container {
+    flex-direction: column;
+  }
+  #book .container {
+    flex-direction: column;
+  }
+  #menu-bar {
+    display: block !important;
+  }
+  header .container {
+    position: relative;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0.3rem;
+  }
+  #menu {
+    position: absolute;
+    top: 145%;
+    right: 5%;
+    background-color: var(--pure);
+    padding: 3rem;
+    width: 50%;
+    transform: scale(0);
+    opacity: 0;
+    transform-origin: top right;
+    transition: none;
+    box-shadow: var(--box-shadow);
+  }
+  #menu.active {
+    transform: scale(1);
+    opacity: 2;
+    transform-origin: top right;
+    transition: all 0.4s ease;
+  }
+  #menu ul {
+    padding: 3rem;
+    flex-direction: column;
+  }
+  #menu ul li {
+    margin: 1rem 0;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 576px) {
+  #hero .container {
+    padding: 2rem;
   }
-  to {
-    transform: rotate(360deg);
+  section#services .container .service-card .btn,
+  section#blog .container .blog-card .btn {
+    width: 52% !important;
+  }
+  header nav .container {
+    padding: 0 2rem;
+  }
+  header .container {
+    position: relative;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0.3rem;
+  }
+  #menu {
+    position: absolute;
+    top: 145%;
+    right: 10%;
+    background-color: var(--pure);
+    padding: 3rem;
+    width: 50%;
+    transform: scale(0);
+    opacity: 0;
+    transform-origin: top right;
+    transition: none;
+    box-shadow: var(--box-shadow);
+  }
+  #menu.active {
+    transform: scale(1);
+    opacity: 2;
+    transform-origin: top right;
+    transition: all 0.4s ease;
+  }
+  #menu ul {
+    padding: 3rem;
+    flex-direction: column;
+  }
+  #menu ul li {
+    margin: 1rem 0;
+  }
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 480px) {
+  section#book .container .book-form {
+    padding: 0.4rem;
   }
 }

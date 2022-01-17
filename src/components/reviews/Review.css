@@ -1,0 +1,44 @@
+section#reviews .container .review-card img {
+  border-radius: 50%;
+  border: 4px solid var(--pure);
+  width: 10rem;
+  height: 10rem;
+  object-fit: contain;
+  margin: 2rem auto;
+}
+section#reviews .container .review-card {
+  border-radius: 0.6rem;
+  border: 2px solid var(--green);
+  margin: 0 2rem 2rem 2rem !important;
+  box-shadow: var(--box-shadow);
+  height: 40rem !important;
+  width: 35rem !important;
+}
+
+section#reviews .container .review-card .para {
+  font-size: 2rem;
+}
+section#reviews .container .review-card .user-review {
+  position: absolute;
+  bottom: 2rem;
+  text-align: center;
+}
+section#reviews {
+  padding: 4rem 0;
+  background-color: var(--pure);
+}
+section#reviews .heading {
+  margin-bottom: 3rem;
+}
+.stars i {
+  color: var(--green);
+}
+section#reviews .container .btn {
+  padding: 0;
+  border-radius: 0.5rem;
+}
+section#reviews .container .btn i {
+  margin: 0;
+  border-radius: 0;
+}
+

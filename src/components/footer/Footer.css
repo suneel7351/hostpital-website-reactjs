@@ -1,0 +1,38 @@
+section#footer footer .container span,
+section#footer footer .container a {
+  font-size: 2rem;
+  color: var(--light-color);
+}
+section#footer {
+  padding: 4rem 0;
+}
+section#footer footer .container span i {
+  margin-right: 0.5rem;
+}
+section#footer footer .container a span {
+  margin-left: 1rem;
+}
+.gap {
+  gap: 2rem;
+}
+section#footer footer .container {
+  align-items: flex-start;
+}
+section#footer footer .container .contact-info i,
+section#footer footer .container .follow-us i {
+  color: var(--green);
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.footer-heading {
+  font-size: 2.5rem;
+}
+#copy-right {
+  font-size: 2rem;
+  margin: 4rem 0 1rem 0;
+  font-weight: 500;
+  color: var(--light-color);
+}
+section#footer footer .container>div {
+  margin-bottom: 3rem;
+}

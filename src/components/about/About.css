@@ -1,0 +1,9 @@
+section#about .container .about-img img {
+  width: 100%;
+}
+section#about .container .about-text .heading {
+  text-align: start;
+}
+section#about {
+  padding: 3rem;
+}

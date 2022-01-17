@@ -1,0 +1,30 @@
+section#services .container .service-card {
+  width: 33rem;
+  height: 33rem;
+  border: 2px solid var(--green);
+  margin-bottom: 2rem;
+  padding: 0rem 2rem;
+  border-radius: 0.8rem;
+  box-shadow: var(--box-shadow);
+}
+section#services .container .service-card #icon {
+  font-size: 3rem;
+  color: var(--green);
+}
+section#services .container .service-card .service-heading {
+  font-size: 2.5rem;
+  color: var(--black);
+}
+section#services .container .service-card .btn {
+  width: 50%;
+}
+section#services {
+  padding: 3rem 0;
+}
+section#services .heading {
+  margin-bottom: 3rem;
+}
+section#services .heading span {
+  color: var(--green);
+  font-weight: 900;
+}
